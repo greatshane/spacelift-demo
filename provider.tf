@@ -1,4 +1,7 @@
-provider "google" {
-    project = "prj-devops-np"
-    region = "us-west2"
+terraform {
+  required_providers {
+    spacelift = {
+      source = "spacelift-io/spacelift"
+    }
+  }
 }
